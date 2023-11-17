@@ -1,18 +1,15 @@
-// == (comparação implícita)
+// == comparação implícita
 
 const numero = 5;
 const texto = "5";
 
-console.log(numero === texto)
+const doisIguais = numero == texto;
 
-//typeof
-console.log(typeof numero)
-console.log(typeof texto)
+// === comparação explicita
+const tresIguais = numero === texto;
+
+console.log([doisIguais, tresIguais]);
+
 
 // == só compara o valor
 // === compara o valor e o tipo de dado
-
-// conversão explícita 
-
-Number()
-String()
