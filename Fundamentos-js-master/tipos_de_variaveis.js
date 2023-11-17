@@ -8,15 +8,15 @@ function comconcatenação(){
     const citacao = "Meu nome é ";
     const meuNome = "Leonardo";
 
-    const mensagem = [citacao, meuNome];
-
-    console.log(mensagem);
+    console.log(citacao + meuNome);
 }
 
 function tipoStringcomNumeros(){
     const senha = "senhaSuperSegura456!";
     const stringDeNumeros = "34567";
-    console.log(senha + ', ' + stringDeNumeros);
+
+    const mensagem = [senha, stringDeNumeros]
+    console.log(mensagem);
 }
 
 // tipo Number 
