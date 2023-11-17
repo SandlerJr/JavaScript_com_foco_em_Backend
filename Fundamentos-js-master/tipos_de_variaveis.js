@@ -8,7 +8,9 @@ function comconcatenação(){
     const citacao = "Meu nome é ";
     const meuNome = "Leonardo";
 
-    console.log(citacao + meuNome);
+    const mensagem = [citacao, meuNome];
+
+    console.log(mensagem);
 }
 
 function tipoStringcomNumeros(){
