@@ -5,12 +5,12 @@ function minhaFuncao(param) {
   console.log(mensagem);
 }
 
-minhaFuncao("param")
+minhaFuncao("param");
 
 // expressão de função
 
 const soma = function(num1, num2) { return num1 + num2 }
-console.log(soma(1, 1))
+console.log(soma(1, 1));
 
 // diferença principal: HOISTING
 // funções e var são "listadas" no topo do arquivo.
@@ -23,5 +23,5 @@ function apresentar() {
 }
 
 // nao pode ser chamada antes de declara-la(vai dar ReferenceError - Proposital)
-console.log(somaOutroExemplo(1, 1))
+console.log(somaOutroExemplo(1, 1));
 const somaOutroExemplo = function(num1, num2) { return num1 + num2 }
